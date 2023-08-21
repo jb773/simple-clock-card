@@ -11,6 +11,8 @@ class SimpleClockCard extends HTMLElement {
 			this.content.style.paddingTop = this.config.paddingTop_size ? this.config.paddingTop_size : '60px';
 			this.content.style.paddingBottom = this.config.paddingBottom_size ? this.config.paddingBottom_size : '60px';
 			this.content.style.fontSize = this.config.font_size ? this.config.font_size : '4rem' ;
+			this.content.style.fontFamily = this.config.font_family ? this.config.font_family : 'Roboto, serif' ;
+			this.content.style.backgroundColor = this.config.background_color ? this.config.background_color : 'transparent' ;
 			this.style.textAlign = 'center';
 			this.content.style.display = 'inline-block';
 			card.appendChild(this.content);
