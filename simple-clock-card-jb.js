@@ -47,6 +47,7 @@ class SimpleClockCard extends HTMLElement {
                    (hide_seconds ? "" : ":" + s ) +
                    (use_military ? " " : " " + p );
 				content.innerHTML = time_str;
+				content.parentElement.style.backgroundColor = this.config.background_color
 			}
 		}
 	}
