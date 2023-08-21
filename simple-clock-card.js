@@ -60,4 +60,4 @@ class SimpleClockCard extends HTMLElement {
     }
 }
 
-customElements.define('simple-clock-card', SimpleClockCard);
+customElements.define('simple-clock-card-jb', SimpleClockCard);
